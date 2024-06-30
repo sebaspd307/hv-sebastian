@@ -40,24 +40,24 @@ function App() {
             />
           </div>
           <p className="text-gray-600 text-xl">Desarrollador Full Stack</p>
-          <div className="mt-4 flex justify-center space-x-4">
+          <div className="mt-4 flex flex-wrap justify-center gap-4">
             <a
               href="mailto:sebaspd307@gmail.com"
-              className="text-gray-600 inline-flex items-center"
+              className="text-gray-600 inline-flex items-center mb-2"
             >
               <EnvelopeIcon className="h-5 w-5 mr-2" />
               sebaspd307@gmail.com
             </a>
             <a
               href="tel:+573103235230"
-              className="text-gray-600 inline-flex items-center"
+              className="text-gray-600 inline-flex items-center mb-2"
             >
               <PhoneIcon className="h-5 w-5 mr-2" />
               +57 (310) 323-5230 / (304)-434-1999
             </a>
             <a
               href="https://www.linkedin.com/in/edgar-sebastian-peña-diaz/?trk=public-profile-join-page"
-              className="text-gray-600 inline-flex items-center"
+              className="text-gray-600 inline-flex items-center mb-2"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -82,6 +82,35 @@ function App() {
             efectivas que cumplen con los requisitos específicos de cada
             cliente.
           </p>
+        </section>
+
+        <section className="mb-10">
+          <h2 className="text-gray-600 text-2xl font-bold mb-2 mt-5">
+            Formación
+          </h2>
+          <hr className="h-0.5 mx-auto my-4 border-0 rounded  dark:bg-[#8d9aad]" />
+          <div className="flex justify-between w-[65%]">
+            <div>
+              <p className="font-bold text-[#58677c]">
+                2024 Ingenieria de sistemas
+              </p>
+              <p className="pl-10 text-[#58677c]">Universidad ECCI (Bogotá)</p>
+            </div>
+            <div>
+              <p className="text-[#58677c] font-bold"></p>
+            </div>
+          </div>
+          <div className="mt-4 flex justify-between w-[65%]">
+            <div>
+              <p className="font-bold text-[#58677c]">
+                2020 Tecnólogo en análisis y diseño de sistemas de información
+              </p>
+              <p className="pl-10 text-[#58677c]">SENA (Bogotá)</p>
+            </div>
+            <div>
+              <p className="text-[#58677c] font-bold"></p>
+            </div>
+          </div>
         </section>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
@@ -275,35 +304,126 @@ function App() {
             </div>
           </section>
         </div>
-        <section>
-          <h2 className="text-gray-600 text-2xl font-bold mb-2 mt-5">
-            Formación
-          </h2>
-          <hr className="h-0.5 mx-auto my-4 border-0 rounded  dark:bg-[#8d9aad]" />
-          <div className="flex justify-between w-[65%]">
-            <div>
-              <p className="font-bold text-[#58677c]">
-                2024 Ingenieria de sistemas
-              </p>
-              <p className="pl-10 text-[#58677c]">Universidad ECCI (Bogotá)</p>
-            </div>
-            <div>
-              <p className="text-[#58677c] font-bold"></p>
-            </div>
+        <h2 className="text-gray-600 text-2xl font-bold mb-2 mt-10">
+          Freelance Experience
+        </h2>
+        <hr className="h-0.5 mx-auto my-4 border-0 rounded dark:bg-[#8d9aad]" />
+        <div className="space-y-4">
+          <div className="">
+            <h3 className="text-[#434E5E] text-xl font-semibold">
+              Inscripcion virtual
+            </h3>
+            <p className="text-[#58677C] font-bold">Canadian College</p>
+            <p className="text-[#aab4c3]">2023 — 2024</p>
+            <p className="text-[#58677c]">
+              Como freelance, desarrollé y desplegué un formulario virtual para
+              el registro de nuevos clientes en los diferentes planes ofrecidos
+              por la compañía, implementé funcionalidades de control de
+              información, un modulo de control de datos de usuarios, planes y
+              valores de los cursos, formalicé documentos, creé contratos
+              digitales, calculo descuentos y pagos de forma automatica segun la
+              forma de pago elegida por el cliente, cargué documentación en la
+              nube usando la API de DRIVE, integré un sistema de almacenamiento
+              seguro en la nube para la documentación de los clientes, envio de
+              correos electrónicos por medio de la API de GMAIL, automatizé
+              notificaciones por correo electrónico al adquirir y pagar un plan,
+              previsualización de PDFs, creé una API para gestionar todas las
+              funcionalidades del backend, y conexion de la base de datos en
+              MongoDB.
+            </p>
+            <h4 className="text-[#58677C] font-bold mt-2 mb-2">
+              Tecnologías usadas:
+            </h4>
+            <ul className="list-none">
+            <li className="mr-1 inline-block">
+                <span className="mb-1 inline-block text-[12px] py-[1.4px] px-3 rounded-[0.375rem] font-bold text-white bg-[#58677C]">
+                  JavaScript
+                </span>
+              </li>
+              <li className="mr-1 inline-block">
+                <span className="mb-1 inline-block text-[12px] py-[1.4px] px-3 rounded-[0.375rem] font-bold text-white bg-[#58677C]">
+                  HTML
+                </span>
+              </li>
+              <li className="mr-1 inline-block">
+                <span className="mb-1 inline-block text-[12px] py-[1.4px] px-3 rounded-[0.375rem] font-bold text-white bg-[#58677C]">
+                  CSS
+                </span>
+              </li>
+              <li className="mr-1 inline-block">
+                <span className="mb-1 inline-block text-[12px] py-[1.4px] px-3 rounded-[0.375rem] font-bold text-white bg-[#58677C]">
+                  Reack
+                </span>
+              </li>
+              <li className="mr-1 inline-block">
+                <span className="mb-1 inline-block text-[12px] py-[1.4px] px-3 rounded-[0.375rem] font-bold text-white bg-[#58677C]">
+                  Mongo
+                </span>
+              </li>
+              <li className="mr-1 inline-block">
+                <span className="mb-1 inline-block text-[12px] py-[1.4px] px-3 rounded-[0.375rem] font-bold text-white bg-[#58677C]">
+                  Expres
+                </span>
+              </li>
+              <li className="mr-1 inline-block">
+                <span className="mb-1 inline-block text-[12px] py-[1.4px] px-3 rounded-[0.375rem] font-bold text-white bg-[#58677C]">
+                  Node
+                </span>
+              </li>              
+              <li className="mr-1 inline-block">
+                <span className="mb-1 inline-block text-[12px] py-[1.4px] px-3 rounded-[0.375rem] font-bold text-white bg-[#58677C]">
+                  GOOGLE CLOUD
+                </span>
+              </li>
+            </ul>
           </div>
-          <div className="mt-4 flex justify-between w-[65%]">
-            <div>
-              <p className="font-bold text-[#58677c]">
-                2020 Tecnólogo en análisis y diseño de sistemas de
-                información
-              </p>
-              <p className="pl-10 text-[#58677c]">SENA (Bogotá)</p>
-            </div>
-            <div>
-              <p className="text-[#58677c] font-bold"></p>
-            </div>
+          <div className="">
+            <h3 className="text-[#434E5E] text-xl font-semibold">
+              Proyecto de ventas difitales y membresias
+            </h3>
+            <p className="text-[#58677C] font-bold">
+              Club deportivo de tiro escorpion
+            </p>
+            <p className="text-[#aab4c3]">2022</p>
+            <p className="text-[#58677c]">
+              Desarrollo de una aplicación web para la venta de artículos y
+              gestión de membresías del Club Deportivo de Tiro Escorpión. Los
+              usuarios inscritos y miembros del club pueden visualizar o
+              descargar fácilmente la documentación de sus armas traumáticas y
+              certificados de pertenencia al club.
+            </p>
+            <h4 className="text-[#58677C] font-bold mt-2 mb-2">
+              Tecnologías usadas:
+            </h4>
+            <ul className="list-none">
+              <li className="mr-1 inline-block">
+                <span className="mb-1 inline-block text-[12px] py-[1.4px] px-3 rounded-[0.375rem] font-bold text-white bg-[#58677C]">
+                  SQL SERVER
+                </span>
+              </li>
+              <li className="mr-1 inline-block">
+                <span className="mb-1 inline-block text-[12px] py-[1.4px] px-3 rounded-[0.375rem] font-bold text-white bg-[#58677C]">
+                  PHP
+                </span>
+              </li>
+              <li className="mr-1 inline-block">
+                <span className="mb-1 inline-block text-[12px] py-[1.4px] px-3 rounded-[0.375rem] font-bold text-white bg-[#58677C]">
+                  JavaScript
+                </span>
+              </li>
+              <li className="mr-1 inline-block">
+                <span className="mb-1 inline-block text-[12px] py-[1.4px] px-3 rounded-[0.375rem] font-bold text-white bg-[#58677C]">
+                  HTML
+                </span>
+              </li>
+              <li className="mr-1 inline-block">
+                <span className="mb-1 inline-block text-[12px] py-[1.4px] px-3 rounded-[0.375rem] font-bold text-white bg-[#58677C]">
+                  CSS
+                </span>
+              </li>
+            </ul>
           </div>
-        </section>
+        </div>
       </div>
     </div>
   );
